@@ -54,22 +54,82 @@ line-height: 47px;
 text-align: center;
 }
 
-.card {
+.card-1 {
     width: 1227px;
 height: 376px;
+background: rgba(255, 208, 55, 0.1);
+border-radius: 85px;
+}
+
+.card-2 {
+    width: 1227px;
+height: 376px;
+background: rgba(207, 204, 224, 0.2);
+border-radius: 85px;
+}
+
+.card-3 {
+    width: 1227px;
+height: 376px;
+background: rgba(255, 185, 185, 0.2);
 border-radius: 85px;
 }
 
 .row {
+    position: relative;
+    display: flex;
+    margin-top: 5%;
     justify-content: center;
 }
 
-.card-title {
+
+.card-header {
     font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    position: relative;
+    display: block;
+    padding-left: 40%;
+    font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
-font-size: 36px;
-line-height: 54px;
-text-align: center;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0.01em;
 color: #000000;
 }
+
+.img-fluid {
+    position:relative;
+    left: 5%;
+    float: left;
+}
+
+
+
+.btn {
+    position: relative;
+    display: block;
+    flex-wrap: wrap;
+    right: 10%;
+    margin-top: 5%;
+    width: 217px;
+height: 64px;
+border-radius: 22px;
+background: #201C3A;
+color: white;
+}
+
+.btn:hover {
+    background-color:white;
+    color: #201C3A;
+    border: 2px solid #201C3A;
+}
+
