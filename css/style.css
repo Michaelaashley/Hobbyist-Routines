@@ -1,0 +1,75 @@
+/* Navigation*/
+
+body {
+    display: block;
+    overflow-x: hidden;
+}
+
+nav {
+    background-color: none;
+}
+
+
+.navbar-brand {
+    font-family: "Poppins";
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 67px;
+color: #000000;
+}
+
+.navbar-light .navbar-brand:hover {
+    color: rgba(255, 99, 155, 0.67);
+}
+
+nav ul li a {
+    font-family: "Roboto";
+font-style: normal;
+font-weight: lighter;
+font-size: 24px;
+line-height: 28px;
+    color: #000000;
+    margin: auto 30px;
+}
+
+.navbar-light .navbar-nav .nav-item a:hover{
+    color: rgba(255, 99, 155, 0.67);
+}
+
+/* Section */
+
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+section h1 {
+    font-family: "Roboto";
+font-style: normal;
+font-weight: normal;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+}
+
+.card {
+    width: 1227px;
+height: 376px;
+border-radius: 85px;
+}
+
+.row {
+    justify-content: center;
+}
+
+.card-title {
+    font-family: "Poppins";
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 54px;
+text-align: center;
+color: #000000;
+}
